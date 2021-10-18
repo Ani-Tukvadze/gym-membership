@@ -1,3 +1,23 @@
-.wrapper {box-shadow: 0 0 20px   
-  rgba(0, 0, 255, 0.5);
+.wrapper {
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #095484;
+  padding: 10px 40px; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 4px;
 }
